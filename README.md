@@ -1,2 +1,12 @@
-# fix-ventura-bob-popclip
-修复 Ventura 13.6.5 下 PopClip 调用 Bob 划词翻译无反应、隐私与安全性-自动化里无 PopClip 的问题
+## 问题描述
+在 `Ventura 13.6.5` 安装 `Bob`、`PopClip`，安装 [bob-popclip](https://github.com/ripperhe/bob-popclip) 插件，划词时选择 `Bob` 图标后无反应，隐私与安全性 - 自动化里无 `PopClip` 调用 `Bob` 的允许项，控制台报：
+
+```log
+Since sending application *** is not permitted to send this AppleEvent to this process, returning an errAEEventNotPermitted reply.
+```
+
+## 修复步骤
+1. 安装 `Bob Shell.popclipext`
+2. 划词选择 `Bob`，弹窗后允许
+3. 重新安装 [bob-popclip](https://github.com/ripperhe/bob-popclip) 插件
+4. Done.
