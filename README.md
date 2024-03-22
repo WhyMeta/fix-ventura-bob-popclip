@@ -6,7 +6,7 @@ Since sending application *** is not permitted to send this AppleEvent to this p
 ```
 
 ## 修复步骤
-1. 安装 `Bob Shell.popclipext`
+1. 安装 [Bob Shell.popclipextz](https://github.com/WhyMeta/fix-ventura-bob-popclip/raw/main/Bob%20Shell.popclipextz)
 2. 划词选择 `Bob`，弹窗后允许
 3. 重新安装 [bob-popclip](https://github.com/ripperhe/bob-popclip) 插件
 4. Done.
